@@ -13,7 +13,7 @@ window.addEventListener('DOMContentLoaded', function () {
     navigation.classList.toggle('active')
   })
 
-  navigationItems.forEach(navItem => { 
+  navigationItems.forEach(navItem => {  
     navItem.addEventListener('click', () => {
       menuBtn.classList.remove('active')
       navigation.classList.remove('active')
