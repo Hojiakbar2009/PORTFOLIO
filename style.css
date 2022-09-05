@@ -187,7 +187,7 @@ section {
   transform: translateX(-50%);
 }
 
-. .content {
+.content {
   position: relative;
   width: 100%;
   display: flex;
