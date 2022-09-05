@@ -38,7 +38,7 @@ window.addEventListener('DOMContentLoaded', function () {
       let revealPoint = 50;
 
       if(revealTop < windowHeight - revealPoint) {
-        reveals[i].classList.add('active')
+        reveals[i].classList.add('active') 
       }
     }
   })
